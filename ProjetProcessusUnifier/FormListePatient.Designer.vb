@@ -22,7 +22,7 @@ Partial Class FormListePatient
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -43,6 +43,7 @@ Partial Class FormListePatient
         Me.btnConsultation = New System.Windows.Forms.Button()
         Me.btnConsultationSel = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxAtt, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -60,8 +61,8 @@ Partial Class FormListePatient
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(969, 358)
         Me.DataGridView1.TabIndex = 86
@@ -267,6 +268,14 @@ Partial Class FormListePatient
         Me.Label2.TabIndex = 101
         Me.Label2.Text = "Modif Abdou"
         '
+        'Label3
+        '
+        Me.Label3.Location = New System.Drawing.Point(189, 180)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(274, 115)
+        Me.Label3.TabIndex = 102
+        Me.Label3.Text = "Modif Abdou"
+        '
         'FormListePatient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -274,6 +283,7 @@ Partial Class FormListePatient
         Me.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.degrade_gris_bleu_1095_593
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(984, 457)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnConsultation)
         Me.Controls.Add(Me.btnConsultationSel)
@@ -316,4 +326,5 @@ Partial Class FormListePatient
     Friend WithEvents btnConsultation As Button
     Friend WithEvents btnConsultationSel As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class
