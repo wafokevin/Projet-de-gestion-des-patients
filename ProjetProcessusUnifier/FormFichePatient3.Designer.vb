@@ -50,6 +50,10 @@ Partial Class FormFichePatient3
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -213,7 +217,7 @@ Partial Class FormFichePatient3
         Me.GroupBox1.Controls.Add(Me.CheckBox3)
         Me.GroupBox1.Controls.Add(Me.CheckBox2)
         Me.GroupBox1.Controls.Add(Me.CheckBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(484, 35)
+        Me.GroupBox1.Location = New System.Drawing.Point(446, 31)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(200, 342)
         Me.GroupBox1.TabIndex = 134
@@ -345,7 +349,7 @@ Partial Class FormFichePatient3
         Me.GroupBox2.Controls.Add(Me.CheckBox11)
         Me.GroupBox2.Controls.Add(Me.CheckBox12)
         Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.GroupBox2.Location = New System.Drawing.Point(256, 277)
+        Me.GroupBox2.Location = New System.Drawing.Point(218, 273)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(200, 100)
         Me.GroupBox2.TabIndex = 133
@@ -359,7 +363,7 @@ Partial Class FormFichePatient3
         Me.GroupBox3.Controls.Add(Me.CheckBox20)
         Me.GroupBox3.Controls.Add(Me.CheckBox21)
         Me.GroupBox3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.GroupBox3.Location = New System.Drawing.Point(50, 173)
+        Me.GroupBox3.Location = New System.Drawing.Point(12, 169)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(406, 97)
         Me.GroupBox3.TabIndex = 134
@@ -374,7 +378,7 @@ Partial Class FormFichePatient3
         Me.GroupBox4.Controls.Add(Me.CheckBox16)
         Me.GroupBox4.Controls.Add(Me.CheckBox17)
         Me.GroupBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.GroupBox4.Location = New System.Drawing.Point(50, 35)
+        Me.GroupBox4.Location = New System.Drawing.Point(12, 31)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(406, 133)
         Me.GroupBox4.TabIndex = 135
@@ -385,22 +389,68 @@ Partial Class FormFichePatient3
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(90, 356)
+        Me.Label3.Location = New System.Drawing.Point(10, 327)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(90, 21)
+        Me.Label3.Size = New System.Drawing.Size(103, 21)
         Me.Label3.TabIndex = 131
-        Me.Label3.Text = "Precedent"
+        Me.Label3.Text = "Audiograme"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Button20
         '
         Me.Button20.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.bouton_carré_orange_d_icône_arrière_de_flèche_104711540
         Me.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button20.Location = New System.Drawing.Point(29, 352)
+        Me.Button20.Location = New System.Drawing.Point(18, 351)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(57, 25)
         Me.Button20.TabIndex = 130
         Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.depositphotos_127154792_stock_photo_next_arrow_icon_shiny_red1
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.Location = New System.Drawing.Point(663, 351)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(57, 25)
+        Me.Button1.TabIndex = 137
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(10, 309)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(145, 21)
+        Me.Label2.TabIndex = 138
+        Me.Label2.Text = "Tympanogramme"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(646, 330)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(102, 21)
+        Me.Label4.TabIndex = 140
+        Me.Label4.Text = "prothetique"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label5
+        '
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(662, 309)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(61, 21)
+        Me.Label5.TabIndex = 139
+        Me.Label5.Text = "Gain"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'FormFichePatient3
         '
@@ -409,6 +459,10 @@ Partial Class FormFichePatient3
         Me.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.degrade_gris_bleu_1095_593
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(738, 388)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.Button20)
@@ -454,4 +508,8 @@ Partial Class FormFichePatient3
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Button20 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
 End Class

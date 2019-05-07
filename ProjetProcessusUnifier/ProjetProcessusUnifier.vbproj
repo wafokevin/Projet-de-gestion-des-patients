@@ -104,6 +104,12 @@
     <Compile Include="FormFichePatient3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormFichePatientGainProthetique.Designer.vb">
+      <DependentUpon>FormFichePatientGainProthetique.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormFichePatientGainProthetique.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMiseAjourPatient.Designer.vb">
       <DependentUpon>FormMiseAjourPatient.vb</DependentUpon>
     </Compile>
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFichePatient3.resx">
       <DependentUpon>FormFichePatient3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFichePatientGainProthetique.resx">
+      <DependentUpon>FormFichePatientGainProthetique.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMiseAjourPatient.resx">
       <DependentUpon>FormMiseAjourPatient.vb</DependentUpon>
@@ -250,6 +259,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\500_F_32388607_gcswRr1b2RQB7tLs2EgiXAsPEqC1kfdH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_127154792-stock-photo-next-arrow-icon-shiny-red1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4515735-inline-500x333.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

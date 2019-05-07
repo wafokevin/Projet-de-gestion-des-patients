@@ -28,12 +28,12 @@ Partial Class FormFichePatient1
         Me.lblTitre = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.btnAjouter = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.Menu
         Me.TextBox1.Location = New System.Drawing.Point(7, 126)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
@@ -81,25 +81,13 @@ Partial Class FormFichePatient1
         Me.Label2.Text = "Observation : "
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'btnAjouter
-        '
-        Me.btnAjouter.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.enregistrer_bouton
-        Me.btnAjouter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnAjouter.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAjouter.ForeColor = System.Drawing.Color.White
-        Me.btnAjouter.Location = New System.Drawing.Point(112, 312)
-        Me.btnAjouter.Name = "btnAjouter"
-        Me.btnAjouter.Size = New System.Drawing.Size(108, 31)
-        Me.btnAjouter.TabIndex = 97
-        Me.btnAjouter.UseVisualStyleBackColor = True
-        '
         'Button1
         '
         Me.Button1.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources._31833983_bouton_annuler_carré_tridimensionnel_rouge_isolé_sur_fond_blanc
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(112, 349)
+        Me.Button1.Location = New System.Drawing.Point(112, 346)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(108, 31)
         Me.Button1.TabIndex = 98
@@ -113,7 +101,6 @@ Partial Class FormFichePatient1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(229, 384)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.btnAjouter)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblTitre)
@@ -130,6 +117,5 @@ Partial Class FormFichePatient1
     Friend WithEvents lblTitre As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents btnAjouter As Button
     Friend WithEvents Button1 As Button
 End Class

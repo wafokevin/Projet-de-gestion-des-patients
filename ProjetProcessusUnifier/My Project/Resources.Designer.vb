@@ -105,6 +105,16 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _4515735_inline_500x333() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("4515735-inline-500x333", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property _500_F_32388607_gcswRr1b2RQB7tLs2EgiXAsPEqC1kfdH() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("500_F_32388607_gcswRr1b2RQB7tLs2EgiXAsPEqC1kfdH", resourceCulture)
@@ -190,6 +200,16 @@ Namespace My.Resources
         Friend ReadOnly Property depositphotos_127154792_stock_photo_next_arrow_icon_shiny_red() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("depositphotos_127154792-stock-photo-next-arrow-icon-shiny-red", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property depositphotos_127154792_stock_photo_next_arrow_icon_shiny_red1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("depositphotos_127154792-stock-photo-next-arrow-icon-shiny-red1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

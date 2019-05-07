@@ -64,6 +64,7 @@ Partial Class FormMiseAjourPatient
         '
         'txtTelPatient
         '
+        Me.txtTelPatient.BackColor = System.Drawing.SystemColors.Menu
         Me.txtTelPatient.Location = New System.Drawing.Point(9, 271)
         Me.txtTelPatient.Name = "txtTelPatient"
         Me.txtTelPatient.Size = New System.Drawing.Size(195, 20)
@@ -82,6 +83,7 @@ Partial Class FormMiseAjourPatient
         '
         'txtVillePatient
         '
+        Me.txtVillePatient.BackColor = System.Drawing.SystemColors.Menu
         Me.txtVillePatient.Location = New System.Drawing.Point(9, 227)
         Me.txtVillePatient.Name = "txtVillePatient"
         Me.txtVillePatient.Size = New System.Drawing.Size(195, 20)
@@ -89,6 +91,7 @@ Partial Class FormMiseAjourPatient
         '
         'dtDatePatient
         '
+        Me.dtDatePatient.CalendarMonthBackground = System.Drawing.SystemColors.Menu
         Me.dtDatePatient.Location = New System.Drawing.Point(9, 180)
         Me.dtDatePatient.Name = "dtDatePatient"
         Me.dtDatePatient.Size = New System.Drawing.Size(196, 20)
@@ -118,6 +121,7 @@ Partial Class FormMiseAjourPatient
         '
         'txtPrenomPatient
         '
+        Me.txtPrenomPatient.BackColor = System.Drawing.SystemColors.Menu
         Me.txtPrenomPatient.Location = New System.Drawing.Point(9, 133)
         Me.txtPrenomPatient.Name = "txtPrenomPatient"
         Me.txtPrenomPatient.Size = New System.Drawing.Size(195, 20)
@@ -148,6 +152,7 @@ Partial Class FormMiseAjourPatient
         '
         'txtNomPatient
         '
+        Me.txtNomPatient.BackColor = System.Drawing.SystemColors.Menu
         Me.txtNomPatient.Location = New System.Drawing.Point(9, 89)
         Me.txtNomPatient.Name = "txtNomPatient"
         Me.txtNomPatient.Size = New System.Drawing.Size(196, 20)
@@ -166,6 +171,7 @@ Partial Class FormMiseAjourPatient
         '
         'txtProfession
         '
+        Me.txtProfession.BackColor = System.Drawing.SystemColors.Menu
         Me.txtProfession.Location = New System.Drawing.Point(10, 313)
         Me.txtProfession.Name = "txtProfession"
         Me.txtProfession.Size = New System.Drawing.Size(195, 20)
