@@ -110,6 +110,24 @@
     <Compile Include="FormFichePatientGainProthetique.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormGaucheDecor.Designer.vb">
+      <DependentUpon>FormGaucheDecor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormGaucheDecor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListeFiche.Designer.vb">
+      <DependentUpon>FormListeFiche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormListeFiche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListeProtege.Designer.vb">
+      <DependentUpon>FormListeProtege.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormListeProtege.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMiseAjourPatient.Designer.vb">
       <DependentUpon>FormMiseAjourPatient.vb</DependentUpon>
     </Compile>
@@ -122,6 +140,12 @@
     <Compile Include="FormListePatient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormMiseAjourProtege.Designer.vb">
+      <DependentUpon>FormMiseAjourProtege.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMiseAjourProtege.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormPatientEnAtte.Designer.vb">
       <DependentUpon>FormPatientEnAtte.vb</DependentUpon>
     </Compile>
@@ -132,6 +156,24 @@
       <DependentUpon>FormPrincipal.vb</DependentUpon>
     </Compile>
     <Compile Include="FormPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVoirFiche1.Designer.vb">
+      <DependentUpon>FormVoirFiche1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVoirFiche1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVoirFiche2.Designer.vb">
+      <DependentUpon>FormVoirFiche2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVoirFiche2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVoirGainProthetique.Designer.vb">
+      <DependentUpon>FormVoirGainProthetique.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVoirGainProthetique.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -169,17 +211,38 @@
     <EmbeddedResource Include="FormFichePatientGainProthetique.resx">
       <DependentUpon>FormFichePatientGainProthetique.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormGaucheDecor.resx">
+      <DependentUpon>FormGaucheDecor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListeFiche.resx">
+      <DependentUpon>FormListeFiche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListeProtege.resx">
+      <DependentUpon>FormListeProtege.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMiseAjourPatient.resx">
       <DependentUpon>FormMiseAjourPatient.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormListePatient.resx">
       <DependentUpon>FormListePatient.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMiseAjourProtege.resx">
+      <DependentUpon>FormMiseAjourProtege.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPatientEnAtte.resx">
       <DependentUpon>FormPatientEnAtte.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVoirFiche1.resx">
+      <DependentUpon>FormVoirFiche1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVoirFiche2.resx">
+      <DependentUpon>FormVoirFiche2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVoirGainProthetique.resx">
+      <DependentUpon>FormVoirGainProthetique.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -265,6 +328,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4515735-inline-500x333.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\173292331669057-3997249.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

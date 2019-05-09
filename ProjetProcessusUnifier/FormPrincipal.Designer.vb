@@ -135,6 +135,7 @@ Partial Class FormPrincipal
         Me.btnSelect4.Name = "btnSelect4"
         Me.btnSelect4.Size = New System.Drawing.Size(128, 31)
         Me.btnSelect4.TabIndex = 25
+        Me.btnSelect4.Text = "Stock protege"
         Me.btnSelect4.UseVisualStyleBackColor = True
         '
         'btnSelect5
@@ -146,6 +147,7 @@ Partial Class FormPrincipal
         Me.btnSelect5.Name = "btnSelect5"
         Me.btnSelect5.Size = New System.Drawing.Size(128, 31)
         Me.btnSelect5.TabIndex = 26
+        Me.btnSelect5.Text = "Parametrage"
         Me.btnSelect5.UseVisualStyleBackColor = True
         '
         'btnSelect6
@@ -157,7 +159,7 @@ Partial Class FormPrincipal
         Me.btnSelect6.Name = "btnSelect6"
         Me.btnSelect6.Size = New System.Drawing.Size(128, 31)
         Me.btnSelect6.TabIndex = 27
-        Me.btnSelect6.Text = "Administration"
+        Me.btnSelect6.Text = "Gestion utilisateur"
         Me.btnSelect6.UseVisualStyleBackColor = True
         '
         'btn6
@@ -170,7 +172,7 @@ Partial Class FormPrincipal
         Me.btn6.Name = "btn6"
         Me.btn6.Size = New System.Drawing.Size(128, 31)
         Me.btn6.TabIndex = 33
-        Me.btn6.Text = "Administration"
+        Me.btn6.Text = "Gestion utilisateur"
         Me.btn6.UseVisualStyleBackColor = True
         '
         'btn5
@@ -183,6 +185,7 @@ Partial Class FormPrincipal
         Me.btn5.Name = "btn5"
         Me.btn5.Size = New System.Drawing.Size(128, 31)
         Me.btn5.TabIndex = 32
+        Me.btn5.Text = "Parametrage"
         Me.btn5.UseVisualStyleBackColor = True
         '
         'btn4
@@ -195,6 +198,7 @@ Partial Class FormPrincipal
         Me.btn4.Name = "btn4"
         Me.btn4.Size = New System.Drawing.Size(128, 31)
         Me.btn4.TabIndex = 31
+        Me.btn4.Text = "Stock protege"
         Me.btn4.UseVisualStyleBackColor = True
         '
         'btn3

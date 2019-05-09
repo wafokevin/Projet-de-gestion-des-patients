@@ -1,5 +1,7 @@
 ﻿Public Class FormPrincipal
 
+    Public actionFiche As String
+
     Sub ChargePanel2(ByVal NewForm As Form)
 
         Panel2.Controls.Clear()
@@ -113,6 +115,12 @@
     End Sub
 
     Private Sub btn3_Click(sender As Object, e As EventArgs) Handles btn3.Click
+
+        FormGaucheDecor.Close()
+        FormListeFiche.Close()
+        ChargePanel2(FormGaucheDecor)
+        ChargePanel3(FormListeFiche)
+
         btn1.Visible = True
         btn2.Visible = True
         btn3.Visible = False
@@ -129,6 +137,12 @@
     End Sub
 
     Private Sub btn4_Click(sender As Object, e As EventArgs) Handles btn4.Click
+
+        FormMiseAjourProtege.Close()
+        FormListeProtege.Close()
+        ChargePanel2(FormMiseAjourProtege)
+        ChargePanel3(FormListeProtege)
+
         btn1.Visible = True
         btn2.Visible = True
         btn3.Visible = True
