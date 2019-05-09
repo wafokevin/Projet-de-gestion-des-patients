@@ -4,7 +4,7 @@
 
     Sub ChargePanel2(ByVal NewForm As Form)
 
-        Panel2.Controls.Clear()
+        Panel4.Controls.Clear()
 
         Dim fh As Object = TryCast(NewForm, Object)
 
@@ -14,11 +14,11 @@
 
         fh.Dock = DockStyle.Fill
 
+        Me.Panel4.Controls.Add(fh)
 
+        Me.Panel4.Tag = Panel4
 
-        Me.Panel2.Tag = Panel2
-
-        fh.show()
+        fh.Show()
 
     End Sub
 

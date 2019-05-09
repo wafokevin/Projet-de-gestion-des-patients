@@ -38,8 +38,8 @@ Partial Class FormPrincipal
         Me.btn3 = New System.Windows.Forms.Button()
         Me.btn2 = New System.Windows.Forms.Button()
         Me.btn1 = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -240,19 +240,19 @@ Partial Class FormPrincipal
         Me.btn1.Text = "Enregistrer patient"
         Me.btn1.UseVisualStyleBackColor = True
         '
-        'Panel2
-        '
-        Me.Panel2.Location = New System.Drawing.Point(1, 140)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(221, 410)
-        Me.Panel2.TabIndex = 34
-        '
         'Panel3
         '
         Me.Panel3.Location = New System.Drawing.Point(228, 140)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(754, 410)
         Me.Panel3.TabIndex = 35
+        '
+        'Panel4
+        '
+        Me.Panel4.Location = New System.Drawing.Point(1, 140)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(221, 410)
+        Me.Panel4.TabIndex = 35
         '
         'FormPrincipal
         '
@@ -261,8 +261,8 @@ Partial Class FormPrincipal
         Me.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.pngtree_dark_gray_gradient_geometric_shape_banner_background_grey_gradient_backgroundgeometric_image_83305
         Me.ClientSize = New System.Drawing.Size(983, 550)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.btn6)
         Me.Controls.Add(Me.btn5)
         Me.Controls.Add(Me.btn4)
@@ -299,7 +299,7 @@ Partial Class FormPrincipal
     Friend WithEvents btn3 As Button
     Friend WithEvents btn2 As Button
     Friend WithEvents btn1 As Button
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Button1 As Button
+    Friend WithEvents Panel4 As Panel
 End Class
