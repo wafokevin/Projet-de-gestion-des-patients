@@ -164,32 +164,7 @@ Partial Class FormListeFiche
         Me.Label2.TabIndex = 107
         Me.Label2.Text = "2"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(397, 248)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(16, 17)
-        Me.Label3.TabIndex = 108
-        Me.Label3.Text = "1"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(662, 238)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(16, 17)
-        Me.Label4.TabIndex = 109
-        Me.Label4.Text = "3"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(346, 239)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(51, 17)
-        Me.Label3.TabIndex = 108
-        Me.Label3.Text = "Label3"
+
         '
         'FormListeFiche
         '
