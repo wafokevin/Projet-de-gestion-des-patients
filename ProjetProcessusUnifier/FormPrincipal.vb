@@ -12,11 +12,11 @@
 
         fh.Dock = DockStyle.Fill
 
-        Me.Panel2.Controls.Add(fh)
+
 
         Me.Panel2.Tag = Panel2
 
-        fh.Show()
+        fh.show()
 
     End Sub
 

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FormListePatient
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,9 @@ Partial Class FormListePatient
     'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
     'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
     'Ne la modifiez pas à l'aide de l'éditeur de code.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -42,8 +42,6 @@ Partial Class FormListePatient
         Me.pbxAtt = New System.Windows.Forms.PictureBox()
         Me.btnConsultation = New System.Windows.Forms.Button()
         Me.btnConsultationSel = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxAtt, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -57,12 +55,12 @@ Partial Class FormListePatient
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.NOM, Me.REPONSE1, Me.REPONSE2, Me.VILLE, Me.REPONSE4, Me.REPONSEVRAI1})
         Me.DataGridView1.Location = New System.Drawing.Point(9, 47)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(969, 358)
         Me.DataGridView1.TabIndex = 86
@@ -134,7 +132,7 @@ Partial Class FormListePatient
         Me.btnSupprimerSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnSupprimerSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSupprimerSel.Location = New System.Drawing.Point(836, 414)
-        Me.btnSupprimerSel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSupprimerSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSupprimerSel.Name = "btnSupprimerSel"
         Me.btnSupprimerSel.Size = New System.Drawing.Size(144, 39)
         Me.btnSupprimerSel.TabIndex = 91
@@ -147,7 +145,7 @@ Partial Class FormListePatient
         Me.btnModifierSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnModifierSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModifierSel.Location = New System.Drawing.Point(684, 414)
-        Me.btnModifierSel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnModifierSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnModifierSel.Name = "btnModifierSel"
         Me.btnModifierSel.Size = New System.Drawing.Size(144, 39)
         Me.btnModifierSel.TabIndex = 92
@@ -160,7 +158,7 @@ Partial Class FormListePatient
         Me.btnAjouterSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnAjouterSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAjouterSel.Location = New System.Drawing.Point(529, 414)
-        Me.btnAjouterSel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAjouterSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAjouterSel.Name = "btnAjouterSel"
         Me.btnAjouterSel.Size = New System.Drawing.Size(144, 39)
         Me.btnAjouterSel.TabIndex = 93
@@ -174,7 +172,7 @@ Partial Class FormListePatient
         Me.btnAjouter.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAjouter.ForeColor = System.Drawing.Color.White
         Me.btnAjouter.Location = New System.Drawing.Point(529, 415)
-        Me.btnAjouter.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAjouter.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAjouter.Name = "btnAjouter"
         Me.btnAjouter.Size = New System.Drawing.Size(144, 38)
         Me.btnAjouter.TabIndex = 96
@@ -188,7 +186,7 @@ Partial Class FormListePatient
         Me.btnSupprimer.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSupprimer.ForeColor = System.Drawing.Color.White
         Me.btnSupprimer.Location = New System.Drawing.Point(836, 415)
-        Me.btnSupprimer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSupprimer.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSupprimer.Name = "btnSupprimer"
         Me.btnSupprimer.Size = New System.Drawing.Size(144, 38)
         Me.btnSupprimer.TabIndex = 95
@@ -202,7 +200,7 @@ Partial Class FormListePatient
         Me.btnModifier.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModifier.ForeColor = System.Drawing.Color.White
         Me.btnModifier.Location = New System.Drawing.Point(684, 415)
-        Me.btnModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.btnModifier.Name = "btnModifier"
         Me.btnModifier.Size = New System.Drawing.Size(144, 38)
         Me.btnModifier.TabIndex = 94
@@ -227,7 +225,7 @@ Partial Class FormListePatient
         Me.pbxAtt.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.avertissement_signe_exclamation_pression_mark_jaune_icone_feux_erreur_point_lattention_vector_triangle_symbole_isole_gwgdkp
         Me.pbxAtt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pbxAtt.Location = New System.Drawing.Point(9, 407)
-        Me.pbxAtt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pbxAtt.Margin = New System.Windows.Forms.Padding(4)
         Me.pbxAtt.Name = "pbxAtt"
         Me.pbxAtt.Size = New System.Drawing.Size(21, 47)
         Me.pbxAtt.TabIndex = 98
@@ -240,7 +238,7 @@ Partial Class FormListePatient
         Me.btnConsultation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnConsultation.ForeColor = System.Drawing.Color.White
         Me.btnConsultation.Location = New System.Drawing.Point(372, 415)
-        Me.btnConsultation.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnConsultation.Margin = New System.Windows.Forms.Padding(4)
         Me.btnConsultation.Name = "btnConsultation"
         Me.btnConsultation.Size = New System.Drawing.Size(144, 38)
         Me.btnConsultation.TabIndex = 100
@@ -253,28 +251,12 @@ Partial Class FormListePatient
         Me.btnConsultationSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnConsultationSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnConsultationSel.Location = New System.Drawing.Point(372, 414)
-        Me.btnConsultationSel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnConsultationSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnConsultationSel.Name = "btnConsultationSel"
         Me.btnConsultationSel.Size = New System.Drawing.Size(144, 39)
         Me.btnConsultationSel.TabIndex = 99
         Me.btnConsultationSel.Text = "Consultation"
         Me.btnConsultationSel.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.Location = New System.Drawing.Point(515, 180)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(274, 115)
-        Me.Label2.TabIndex = 101
-        Me.Label2.Text = "Modif Abdou"
-        '
-        'Label3
-        '
-        Me.Label3.Location = New System.Drawing.Point(189, 180)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(274, 115)
-        Me.Label3.TabIndex = 102
-        Me.Label3.Text = "Modif Abdou"
         '
         'FormListePatient
         '
@@ -283,8 +265,6 @@ Partial Class FormListePatient
         Me.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.degrade_gris_bleu_1095_593
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(984, 457)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnConsultation)
         Me.Controls.Add(Me.btnConsultationSel)
         Me.Controls.Add(Me.pbxAtt)
@@ -297,7 +277,7 @@ Partial Class FormListePatient
         Me.Controls.Add(Me.btnSupprimerSel)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "FormListePatient"
         Me.Text = "FormListePatient"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -325,6 +305,4 @@ Partial Class FormListePatient
     Friend WithEvents pbxAtt As PictureBox
     Friend WithEvents btnConsultation As Button
     Friend WithEvents btnConsultationSel As Button
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
 End Class
