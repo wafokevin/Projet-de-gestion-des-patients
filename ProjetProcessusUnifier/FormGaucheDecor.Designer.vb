@@ -24,14 +24,15 @@ Partial Class FormGaucheDecor
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
@@ -48,14 +49,13 @@ Partial Class FormGaucheDecor
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Label1
+        'PictureBox1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(49, 89)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label1"
+        Me.PictureBox1.Location = New System.Drawing.Point(148, 187)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
         '
         'FormGaucheDecor
         '
@@ -69,12 +69,12 @@ Partial Class FormGaucheDecor
         Me.Name = "FormGaucheDecor"
         Me.Text = "FormGaucheDecor"
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
