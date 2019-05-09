@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FormListeFiche
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,9 @@ Partial Class FormListeFiche
     'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
     'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
     'Ne la modifiez pas à l'aide de l'éditeur de code.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.btnVoirFiche = New System.Windows.Forms.Button()
         Me.pbxAtt = New System.Windows.Forms.PictureBox()
         Me.lblAtt = New System.Windows.Forms.Label()
@@ -47,7 +47,7 @@ Partial Class FormListeFiche
         Me.btnVoirFiche.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnVoirFiche.ForeColor = System.Drawing.Color.White
         Me.btnVoirFiche.Location = New System.Drawing.Point(833, 433)
-        Me.btnVoirFiche.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnVoirFiche.Margin = New System.Windows.Forms.Padding(4)
         Me.btnVoirFiche.Name = "btnVoirFiche"
         Me.btnVoirFiche.Size = New System.Drawing.Size(144, 38)
         Me.btnVoirFiche.TabIndex = 106
@@ -59,7 +59,7 @@ Partial Class FormListeFiche
         Me.pbxAtt.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.avertissement_signe_exclamation_pression_mark_jaune_icone_feux_erreur_point_lattention_vector_triangle_symbole_isole_gwgdkp
         Me.pbxAtt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pbxAtt.Location = New System.Drawing.Point(8, 425)
-        Me.pbxAtt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pbxAtt.Margin = New System.Windows.Forms.Padding(4)
         Me.pbxAtt.Name = "pbxAtt"
         Me.pbxAtt.Size = New System.Drawing.Size(21, 47)
         Me.pbxAtt.TabIndex = 104
@@ -99,12 +99,12 @@ Partial Class FormListeFiche
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.Column1, Me.REPONSE2, Me.NOM, Me.REPONSE1, Me.VILLE, Me.REPONSE4})
         Me.DataGridView1.Location = New System.Drawing.Point(8, 63)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(969, 358)
         Me.DataGridView1.TabIndex = 101
@@ -158,11 +158,11 @@ Partial Class FormListeFiche
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(512, 211)
+        Me.Label2.Location = New System.Drawing.Point(662, 191)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(49, 17)
+        Me.Label2.Size = New System.Drawing.Size(51, 17)
         Me.Label2.TabIndex = 107
-        Me.Label2.Text = "Abdou"
+        Me.Label2.Text = "Label2"
         '
         'FormListeFiche
         '
@@ -177,7 +177,7 @@ Partial Class FormListeFiche
         Me.Controls.Add(Me.lblAtt)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "FormListeFiche"
         Me.Text = "FormListeFiche"
         CType(Me.pbxAtt, System.ComponentModel.ISupportInitialize).EndInit()
