@@ -22,7 +22,7 @@ Partial Class FormListeFiche
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.btnVoirFiche = New System.Windows.Forms.Button()
         Me.pbxAtt = New System.Windows.Forms.PictureBox()
         Me.lblAtt = New System.Windows.Forms.Label()
@@ -105,8 +105,8 @@ Partial Class FormListeFiche
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(969, 358)
         Me.DataGridView1.TabIndex = 101
@@ -162,27 +162,27 @@ Partial Class FormListeFiche
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(750, 266)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 17)
+        Me.Label2.Size = New System.Drawing.Size(16, 17)
         Me.Label2.TabIndex = 107
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "2"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(397, 248)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(51, 17)
+        Me.Label3.Size = New System.Drawing.Size(16, 17)
         Me.Label3.TabIndex = 108
-        Me.Label3.Text = "Label3"
+        Me.Label3.Text = "1"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(662, 238)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(51, 17)
+        Me.Label4.Size = New System.Drawing.Size(16, 17)
         Me.Label4.TabIndex = 109
-        Me.Label4.Text = "Label4"
+        Me.Label4.Text = "3"
         '
         'FormListeFiche
         '
