@@ -127,14 +127,14 @@
   <data name="depositphotos_123432976-stock-photo-yellow-and-orange-gradient-abstract" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_123432976-stock-photo-yellow-and-orange-gradient-abstract.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bouton-carré-orange-d-icône-arrière-de-flèche-104711540" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bouton-carré-orange-d-icône-arrière-de-flèche-104711540.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bouton connexion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bouton connexion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_127154792-stock-photo-next-arrow-icon-shiny-red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_127154792-stock-photo-next-arrow-icon-shiny-red1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="31833983-bouton-annuler-carré-tridimensionnel-rouge-isolé-sur-fond-blanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\31833983-bouton-annuler-carré-tridimensionnel-rouge-isolé-sur-fond-blanc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,17 +154,26 @@
   <data name="degrade-gris-bleu_1095-593" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\degrade-gris-bleu_1095-593.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="4515735-inline-500x333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4515735-inline-500x333.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngtree-dark-gray-gradient-geometric-shape-banner-background-grey-gradient-backgroundgeometric-image_83305" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-dark-gray-gradient-geometric-shape-banner-background-grey-gradient-backgroundgeometric-image_83305.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="37293750-vector-illustration-de-la-croix-rouge-rouge-icône-quot-x-quot-le-bouton-fermer-incorrecte-cesser-de-fum1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\37293750-vector-illustration-de-la-croix-rouge-rouge-icône-quot-x-quot-le-bouton-fermer-incorrecte-cesser-de-fum1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="500_F_32388607_gcswRr1b2RQB7tLs2EgiXAsPEqC1kfdH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\500_F_32388607_gcswRr1b2RQB7tLs2EgiXAsPEqC1kfdH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bouton-carré-orange-d-icône-arrière-de-flèche-104711540" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bouton-carré-orange-d-icône-arrière-de-flèche-104711540.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="64093868-résumé-vignette-de-dégradé-de-couleur-résumé-couleur-sombre-fond-bleu-dégradé-design-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\64093868-résumé-vignette-de-dégradé-de-couleur-résumé-couleur-sombre-fond-bleu-dégradé-design-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="depositphotos_132779518-stock-video-night-sky-sparkly-stars-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_132779518-stock-video-night-sky-sparkly-stars-on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37293750-vector-illustration-de-la-croix-rouge-rouge-icône-quot-x-quot-le-bouton-fermer-incorrecte-cesser-de-fum1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37293750-vector-illustration-de-la-croix-rouge-rouge-icône-quot-x-quot-le-bouton-fermer-incorrecte-cesser-de-fum1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="240_F_45061001_ze8PWtzQUS3uXLqQv5JL6CWy8jR4bslQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\240_F_45061001_ze8PWtzQUS3uXLqQv5JL6CWy8jR4bslQ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,7 +184,7 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="500_F_32388607_gcswRr1b2RQB7tLs2EgiXAsPEqC1kfdH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\500_F_32388607_gcswRr1b2RQB7tLs2EgiXAsPEqC1kfdH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="173292331669057-3997249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\173292331669057-3997249.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

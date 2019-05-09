@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormMiseAjourPatient
+Partial Class FormMiseAjourProtege
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
@@ -27,15 +27,11 @@ Partial Class FormMiseAjourPatient
         Me.txtTelPatient = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtVillePatient = New System.Windows.Forms.TextBox()
-        Me.dtDatePatient = New System.Windows.Forms.DateTimePicker()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtPrenomPatient = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblTitre = New System.Windows.Forms.Label()
         Me.txtNomPatient = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtProfession = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnValider
@@ -44,10 +40,10 @@ Partial Class FormMiseAjourPatient
         Me.btnValider.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnValider.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnValider.ForeColor = System.Drawing.Color.White
-        Me.btnValider.Location = New System.Drawing.Point(51, 337)
+        Me.btnValider.Location = New System.Drawing.Point(49, 331)
         Me.btnValider.Name = "btnValider"
         Me.btnValider.Size = New System.Drawing.Size(108, 31)
-        Me.btnValider.TabIndex = 58
+        Me.btnValider.TabIndex = 72
         Me.btnValider.Text = "Valider"
         Me.btnValider.UseVisualStyleBackColor = True
         '
@@ -56,167 +52,120 @@ Partial Class FormMiseAjourPatient
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(8, 250)
+        Me.Label6.Location = New System.Drawing.Point(5, 243)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(189, 18)
-        Me.Label6.TabIndex = 57
-        Me.Label6.Text = "Telephone :"
+        Me.Label6.TabIndex = 71
+        Me.Label6.Text = "Quantite minimale :"
         '
         'txtTelPatient
         '
         Me.txtTelPatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtTelPatient.Location = New System.Drawing.Point(9, 271)
+        Me.txtTelPatient.Location = New System.Drawing.Point(6, 264)
         Me.txtTelPatient.Name = "txtTelPatient"
         Me.txtTelPatient.Size = New System.Drawing.Size(195, 20)
-        Me.txtTelPatient.TabIndex = 56
+        Me.txtTelPatient.TabIndex = 70
         '
         'Label5
         '
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(10, 206)
+        Me.Label5.Location = New System.Drawing.Point(8, 199)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(189, 18)
-        Me.Label5.TabIndex = 55
-        Me.Label5.Text = "Ville :"
+        Me.Label5.TabIndex = 69
+        Me.Label5.Text = "Quantite :"
         '
         'txtVillePatient
         '
         Me.txtVillePatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtVillePatient.Location = New System.Drawing.Point(9, 227)
+        Me.txtVillePatient.Location = New System.Drawing.Point(7, 220)
         Me.txtVillePatient.Name = "txtVillePatient"
         Me.txtVillePatient.Size = New System.Drawing.Size(195, 20)
-        Me.txtVillePatient.TabIndex = 54
-        '
-        'dtDatePatient
-        '
-        Me.dtDatePatient.CalendarMonthBackground = System.Drawing.SystemColors.Menu
-        Me.dtDatePatient.Location = New System.Drawing.Point(9, 180)
-        Me.dtDatePatient.Name = "dtDatePatient"
-        Me.dtDatePatient.Size = New System.Drawing.Size(196, 20)
-        Me.dtDatePatient.TabIndex = 53
-        '
-        'Label4
-        '
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(10, 159)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(189, 18)
-        Me.Label4.TabIndex = 52
-        Me.Label4.Text = "Date naissance :"
+        Me.txtVillePatient.TabIndex = 68
         '
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(9, 112)
+        Me.Label3.Location = New System.Drawing.Point(7, 154)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(189, 18)
-        Me.Label3.TabIndex = 51
-        Me.Label3.Text = "Prenom :"
+        Me.Label3.TabIndex = 65
+        Me.Label3.Text = "Libelle :"
         '
         'txtPrenomPatient
         '
         Me.txtPrenomPatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtPrenomPatient.Location = New System.Drawing.Point(9, 133)
+        Me.txtPrenomPatient.Location = New System.Drawing.Point(7, 175)
         Me.txtPrenomPatient.Name = "txtPrenomPatient"
         Me.txtPrenomPatient.Size = New System.Drawing.Size(195, 20)
-        Me.txtPrenomPatient.TabIndex = 50
+        Me.txtPrenomPatient.TabIndex = 64
         '
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(9, 68)
+        Me.Label2.Location = New System.Drawing.Point(7, 110)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 18)
-        Me.Label2.TabIndex = 49
-        Me.Label2.Text = "Nom :"
+        Me.Label2.Size = New System.Drawing.Size(89, 18)
+        Me.Label2.TabIndex = 63
+        Me.Label2.Text = "Reference :"
         '
         'lblTitre
         '
         Me.lblTitre.BackColor = System.Drawing.Color.Transparent
         Me.lblTitre.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitre.ForeColor = System.Drawing.Color.White
-        Me.lblTitre.Location = New System.Drawing.Point(3, 1)
+        Me.lblTitre.Location = New System.Drawing.Point(1, 2)
         Me.lblTitre.Name = "lblTitre"
         Me.lblTitre.Size = New System.Drawing.Size(196, 68)
-        Me.lblTitre.TabIndex = 48
-        Me.lblTitre.Text = "Enregistrement patients"
+        Me.lblTitre.TabIndex = 62
+        Me.lblTitre.Text = "Enregistrement protege"
         Me.lblTitre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'txtNomPatient
         '
         Me.txtNomPatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtNomPatient.Location = New System.Drawing.Point(9, 89)
+        Me.txtNomPatient.Location = New System.Drawing.Point(7, 131)
         Me.txtNomPatient.Name = "txtNomPatient"
         Me.txtNomPatient.Size = New System.Drawing.Size(196, 20)
-        Me.txtNomPatient.TabIndex = 47
+        Me.txtNomPatient.TabIndex = 61
         '
-        'Label1
-        '
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(9, 292)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(189, 18)
-        Me.Label1.TabIndex = 60
-        Me.Label1.Text = "Prefession :"
-        '
-        'txtProfession
-        '
-        Me.txtProfession.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtProfession.Location = New System.Drawing.Point(10, 313)
-        Me.txtProfession.Name = "txtProfession"
-        Me.txtProfession.Size = New System.Drawing.Size(195, 20)
-        Me.txtProfession.TabIndex = 59
-        '
-        'FormMiseAjourPatient
+        'FormMiseAjourProtege
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.degrade_gris_bleu_1095_593
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(205, 371)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtProfession)
         Me.Controls.Add(Me.btnValider)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.txtTelPatient)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtVillePatient)
-        Me.Controls.Add(Me.dtDatePatient)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtPrenomPatient)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblTitre)
         Me.Controls.Add(Me.txtNomPatient)
-        Me.Name = "FormMiseAjourPatient"
-        Me.Text = "FormAjouterPatient"
+        Me.Name = "FormMiseAjourProtege"
+        Me.Text = "FormMiseAjourProtege"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
     Friend WithEvents btnValider As Button
     Friend WithEvents Label6 As Label
     Friend WithEvents txtTelPatient As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents txtVillePatient As TextBox
-    Friend WithEvents dtDatePatient As DateTimePicker
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents txtPrenomPatient As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents lblTitre As Label
     Friend WithEvents txtNomPatient As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents txtProfession As TextBox
 End Class
