@@ -24,13 +24,6 @@ Partial Class FormListePatient
     Private Sub InitializeComponent()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSE1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSE2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.VILLE = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSE4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSEVRAI1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnSupprimerSel = New System.Windows.Forms.Button()
         Me.btnModifierSel = New System.Windows.Forms.Button()
@@ -42,6 +35,14 @@ Partial Class FormListePatient
         Me.pbxAtt = New System.Windows.Forms.PictureBox()
         Me.btnConsultation = New System.Windows.Forms.Button()
         Me.btnConsultationSel = New System.Windows.Forms.Button()
+        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSE1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSE2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.VILLE = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSE4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSEVRAI1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxAtt, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,7 +54,7 @@ Partial Class FormListePatient
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.NOM, Me.REPONSE1, Me.REPONSE2, Me.VILLE, Me.REPONSE4, Me.REPONSEVRAI1})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.NOM, Me.REPONSE1, Me.Column1, Me.REPONSE2, Me.VILLE, Me.REPONSE4, Me.REPONSEVRAI1})
         Me.DataGridView1.Location = New System.Drawing.Point(9, 47)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.MultiSelect = False
@@ -64,55 +65,6 @@ Partial Class FormListePatient
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(969, 358)
         Me.DataGridView1.TabIndex = 86
-        '
-        'ID
-        '
-        Me.ID.HeaderText = "CODE"
-        Me.ID.Name = "ID"
-        Me.ID.ReadOnly = True
-        '
-        'NOM
-        '
-        Me.NOM.HeaderText = "NOM"
-        Me.NOM.Name = "NOM"
-        Me.NOM.ReadOnly = True
-        '
-        'REPONSE1
-        '
-        Me.REPONSE1.HeaderText = "PRENOM"
-        Me.REPONSE1.Name = "REPONSE1"
-        Me.REPONSE1.ReadOnly = True
-        '
-        'REPONSE2
-        '
-        Me.REPONSE2.FillWeight = 144.0!
-        Me.REPONSE2.HeaderText = "DATE NAISSANCE"
-        Me.REPONSE2.Name = "REPONSE2"
-        Me.REPONSE2.ReadOnly = True
-        '
-        'VILLE
-        '
-        Me.VILLE.FillWeight = 144.0!
-        Me.VILLE.HeaderText = "VILLE"
-        Me.VILLE.Name = "VILLE"
-        Me.VILLE.ReadOnly = True
-        Me.VILLE.Width = 70
-        '
-        'REPONSE4
-        '
-        Me.REPONSE4.FillWeight = 144.0!
-        Me.REPONSE4.HeaderText = "TELEPHONE"
-        Me.REPONSE4.Name = "REPONSE4"
-        Me.REPONSE4.ReadOnly = True
-        '
-        'REPONSEVRAI1
-        '
-        Me.REPONSEVRAI1.FillWeight = 144.0!
-        Me.REPONSEVRAI1.HeaderText = "STATUT"
-        Me.REPONSEVRAI1.MinimumWidth = 6
-        Me.REPONSEVRAI1.Name = "REPONSEVRAI1"
-        Me.REPONSEVRAI1.ReadOnly = True
-        Me.REPONSEVRAI1.Width = 130
         '
         'Label1
         '
@@ -258,6 +210,63 @@ Partial Class FormListePatient
         Me.btnConsultationSel.Text = "Consultation"
         Me.btnConsultationSel.UseVisualStyleBackColor = True
         '
+        'ID
+        '
+        Me.ID.HeaderText = "CODE"
+        Me.ID.Name = "ID"
+        Me.ID.ReadOnly = True
+        Me.ID.Width = 50
+        '
+        'NOM
+        '
+        Me.NOM.HeaderText = "NOM"
+        Me.NOM.Name = "NOM"
+        Me.NOM.ReadOnly = True
+        '
+        'REPONSE1
+        '
+        Me.REPONSE1.HeaderText = "PRENOM"
+        Me.REPONSE1.Name = "REPONSE1"
+        Me.REPONSE1.ReadOnly = True
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Profession"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        '
+        'REPONSE2
+        '
+        Me.REPONSE2.FillWeight = 144.0!
+        Me.REPONSE2.HeaderText = "DATE NAISSANCE"
+        Me.REPONSE2.Name = "REPONSE2"
+        Me.REPONSE2.ReadOnly = True
+        Me.REPONSE2.Width = 80
+        '
+        'VILLE
+        '
+        Me.VILLE.FillWeight = 144.0!
+        Me.VILLE.HeaderText = "VILLE"
+        Me.VILLE.Name = "VILLE"
+        Me.VILLE.ReadOnly = True
+        Me.VILLE.Width = 70
+        '
+        'REPONSE4
+        '
+        Me.REPONSE4.FillWeight = 144.0!
+        Me.REPONSE4.HeaderText = "TELEPHONE"
+        Me.REPONSE4.Name = "REPONSE4"
+        Me.REPONSE4.ReadOnly = True
+        '
+        'REPONSEVRAI1
+        '
+        Me.REPONSEVRAI1.FillWeight = 144.0!
+        Me.REPONSEVRAI1.HeaderText = "STATUT"
+        Me.REPONSEVRAI1.MinimumWidth = 6
+        Me.REPONSEVRAI1.Name = "REPONSEVRAI1"
+        Me.REPONSEVRAI1.ReadOnly = True
+        Me.REPONSEVRAI1.Width = 70
+        '
         'FormListePatient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -288,13 +297,6 @@ Partial Class FormListePatient
 
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label1 As Label
-    Friend WithEvents ID As DataGridViewTextBoxColumn
-    Friend WithEvents NOM As DataGridViewTextBoxColumn
-    Friend WithEvents REPONSE1 As DataGridViewTextBoxColumn
-    Friend WithEvents REPONSE2 As DataGridViewTextBoxColumn
-    Friend WithEvents VILLE As DataGridViewTextBoxColumn
-    Friend WithEvents REPONSE4 As DataGridViewTextBoxColumn
-    Friend WithEvents REPONSEVRAI1 As DataGridViewTextBoxColumn
     Friend WithEvents btnSupprimerSel As Button
     Friend WithEvents btnModifierSel As Button
     Friend WithEvents btnAjouterSel As Button
@@ -305,4 +307,12 @@ Partial Class FormListePatient
     Friend WithEvents pbxAtt As PictureBox
     Friend WithEvents btnConsultation As Button
     Friend WithEvents btnConsultationSel As Button
+    Friend WithEvents ID As DataGridViewTextBoxColumn
+    Friend WithEvents NOM As DataGridViewTextBoxColumn
+    Friend WithEvents REPONSE1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents REPONSE2 As DataGridViewTextBoxColumn
+    Friend WithEvents VILLE As DataGridViewTextBoxColumn
+    Friend WithEvents REPONSE4 As DataGridViewTextBoxColumn
+    Friend WithEvents REPONSEVRAI1 As DataGridViewTextBoxColumn
 End Class

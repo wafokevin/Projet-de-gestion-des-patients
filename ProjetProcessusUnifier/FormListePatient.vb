@@ -65,6 +65,7 @@
     End Sub
 
     Private Sub FormListePatient_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        FormConnection.ListePatient(DataGridView1)
         btnAjouter.Visible = False
         btnModifier.Visible = True
         btnSupprimer.Visible = True
