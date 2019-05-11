@@ -6,7 +6,8 @@ Public Class FormConnection
     Dim Connection As MySqlConnection
 
     Sub SeconnecterBd()
-        Connection = New MySqlConnection("server=localhost; user id= root; password= ; database=bd_audioprothesiste")
+        Connection = New MySqlConnection("server=localhost; user id= root; password= ; database=bd_audioprothesiste; SslMode=none ")
+
         Try
             If Connection.State = ConnectionState.Closed Then
                 Connection.Open()
