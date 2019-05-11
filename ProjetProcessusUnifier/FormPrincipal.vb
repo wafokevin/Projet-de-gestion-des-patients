@@ -43,7 +43,7 @@
     End Sub
 
     Private Sub FormPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        FormConnection.ListePatient(FormListePatient.DataGridView1)
         ChargePanel2(FormMiseAjourPatient)
 
         ChargePanel3(FormListePatient)

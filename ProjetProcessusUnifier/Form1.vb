@@ -39,6 +39,29 @@ Public Class FormConnection
         End If
     End Sub
 
+    Sub ListePatient(ByRef table As DataGridView)
+        SeconnecterBd()
+        If Connection.State = ConnectionState.Open Then
+            table.Rows.Clear()
+            Dim cmd As New MySqlCommand("SELECT * FROM patient", Connection)
+            Using lire As MySqlDataReader = cmd.ExecuteReader()
+                While lire.Read
+                    Dim id As Integer = lire("id_patient")
+                    Dim nom As String = lire("nom_patient")
+                    Dim prenom As String = lire("prenom_patient")
+                    Dim fonction As String = lire("fonction_patient")
+                    Dim telephone As String = lire("telephone_patient")
+                    Dim ville As String = lire("ville_patient")
+                    Dim dateP As Date = lire("date_naissance_patient")
+                    table.Rows.Add(id, nom, prenom, fonction, dateP, telephone, ville, "En attente")
+                End While
+                Connection.Close()
+            End Using
+
+        Else
+            MessageBox.Show("Connection fermer")
+        End If
+    End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Panel1.BackColor = Color.FromArgb(60, 0, 0, 0)
