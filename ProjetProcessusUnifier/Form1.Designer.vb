@@ -23,11 +23,11 @@ Partial Class FormConnection
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.login = New System.Windows.Forms.Button()
         Me.txtPasse = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBoxPasse = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBoxLogin = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -39,25 +39,25 @@ Partial Class FormConnection
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
-        Me.Panel1.Controls.Add(Me.Button2)
+        Me.Panel1.Controls.Add(Me.login)
         Me.Panel1.Controls.Add(Me.txtPasse)
-        Me.Panel1.Controls.Add(Me.TextBox2)
+        Me.Panel1.Controls.Add(Me.TextBoxPasse)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.TextBoxLogin)
         Me.Panel1.Location = New System.Drawing.Point(0, 139)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(699, 200)
         Me.Panel1.TabIndex = 0
         '
-        'Button2
+        'login
         '
-        Me.Button2.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.bouton_connexion
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.Location = New System.Drawing.Point(396, 157)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(128, 31)
-        Me.Button2.TabIndex = 15
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.login.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.bouton_connexion
+        Me.login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.login.Location = New System.Drawing.Point(396, 157)
+        Me.login.Name = "login"
+        Me.login.Size = New System.Drawing.Size(128, 31)
+        Me.login.TabIndex = 15
+        Me.login.UseVisualStyleBackColor = True
         '
         'txtPasse
         '
@@ -70,14 +70,14 @@ Partial Class FormConnection
         Me.txtPasse.Text = "MOT DE PASSE"
         Me.txtPasse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'TextBox2
+        'TextBoxPasse
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(315, 109)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(209, 28)
-        Me.TextBox2.TabIndex = 13
+        Me.TextBoxPasse.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxPasse.Location = New System.Drawing.Point(315, 109)
+        Me.TextBoxPasse.Name = "TextBoxPasse"
+        Me.TextBoxPasse.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TextBoxPasse.Size = New System.Drawing.Size(209, 28)
+        Me.TextBoxPasse.TabIndex = 13
         '
         'Label1
         '
@@ -90,13 +90,13 @@ Partial Class FormConnection
         Me.Label1.Text = "LOGIN"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'TextBox1
+        'TextBoxLogin
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(315, 66)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(209, 28)
-        Me.TextBox1.TabIndex = 11
+        Me.TextBoxLogin.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxLogin.Location = New System.Drawing.Point(315, 66)
+        Me.TextBoxLogin.Name = "TextBoxLogin"
+        Me.TextBoxLogin.Size = New System.Drawing.Size(209, 28)
+        Me.TextBoxLogin.TabIndex = 11
         '
         'Label4
         '
@@ -180,11 +180,11 @@ Partial Class FormConnection
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button2 As Button
+    Friend WithEvents login As Button
     Friend WithEvents txtPasse As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBoxPasse As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBoxLogin As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label

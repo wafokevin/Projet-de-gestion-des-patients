@@ -113,4 +113,12 @@
     Private Sub Label3_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+    End Sub
+
+    Private Sub lblAtt_Click(sender As Object, e As EventArgs) Handles lblAtt.Click
+
+    End Sub
 End Class

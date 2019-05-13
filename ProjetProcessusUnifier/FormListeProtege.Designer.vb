@@ -22,22 +22,23 @@ Partial Class FormListeProtege
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.pbxAtt = New System.Windows.Forms.PictureBox()
         Me.lblAtt = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSE2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnAjouter = New System.Windows.Forms.Button()
         Me.btnSupprimer = New System.Windows.Forms.Button()
         Me.btnModifier = New System.Windows.Forms.Button()
         Me.btnAjouterSel = New System.Windows.Forms.Button()
         Me.btnModifierSel = New System.Windows.Forms.Button()
         Me.btnSupprimerSel = New System.Windows.Forms.Button()
-        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSE2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.pbxAtt, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -82,16 +83,47 @@ Partial Class FormListeProtege
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.Column1, Me.Column2, Me.REPONSE2, Me.NOM})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.Column1, Me.Column2, Me.REPONSE2, Me.NOM, Me.Column3})
         Me.DataGridView1.Location = New System.Drawing.Point(97, 49)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(537, 291)
+        Me.DataGridView1.Size = New System.Drawing.Size(629, 291)
         Me.DataGridView1.TabIndex = 107
+        '
+        'ID
+        '
+        Me.ID.HeaderText = "CODE "
+        Me.ID.Name = "ID"
+        Me.ID.ReadOnly = True
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "REFERENCE"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "LIBELLE"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        '
+        'REPONSE2
+        '
+        Me.REPONSE2.FillWeight = 144.0!
+        Me.REPONSE2.HeaderText = "QUANTITE EN STOCK"
+        Me.REPONSE2.Name = "REPONSE2"
+        Me.REPONSE2.ReadOnly = True
+        '
+        'NOM
+        '
+        Me.NOM.HeaderText = "QUANTITE MINIMALE"
+        Me.NOM.Name = "NOM"
+        Me.NOM.ReadOnly = True
         '
         'btnAjouter
         '
@@ -168,36 +200,11 @@ Partial Class FormListeProtege
         Me.btnSupprimerSel.Text = "Supprimer"
         Me.btnSupprimerSel.UseVisualStyleBackColor = True
         '
-        'ID
+        'Column3
         '
-        Me.ID.HeaderText = "CODE "
-        Me.ID.Name = "ID"
-        Me.ID.ReadOnly = True
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "REFERENCE"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "LIBELLE"
-        Me.Column2.Name = "Column2"
-        Me.Column2.ReadOnly = True
-        '
-        'REPONSE2
-        '
-        Me.REPONSE2.FillWeight = 144.0!
-        Me.REPONSE2.HeaderText = "QUANTITE EN STOCK"
-        Me.REPONSE2.Name = "REPONSE2"
-        Me.REPONSE2.ReadOnly = True
-        '
-        'NOM
-        '
-        Me.NOM.HeaderText = "QUANTITE MINIMALE"
-        Me.NOM.Name = "NOM"
-        Me.NOM.ReadOnly = True
+        Me.Column3.HeaderText = "TYPE"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
         '
         'FormListeProtege
         '
@@ -238,4 +245,5 @@ Partial Class FormListeProtege
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents REPONSE2 As DataGridViewTextBoxColumn
     Friend WithEvents NOM As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
 End Class
