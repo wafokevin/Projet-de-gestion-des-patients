@@ -4,4 +4,9 @@
         FormPrincipal.ChargePanel2(FormFichePatient1)
         FormPrincipal.ChargePanel3(FormFichePatient2)
     End Sub
+
+    Private Sub FormPatientEnAtte_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        FormConnection.ListePatientEnAttente(DataGridView1)
+    End Sub
+
 End Class

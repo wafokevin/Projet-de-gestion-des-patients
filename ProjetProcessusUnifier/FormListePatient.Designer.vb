@@ -24,6 +24,14 @@ Partial Class FormListePatient
     Private Sub InitializeComponent()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSE1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSE2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.VILLE = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSE4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REPONSEVRAI1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnSupprimerSel = New System.Windows.Forms.Button()
         Me.btnModifierSel = New System.Windows.Forms.Button()
@@ -35,14 +43,6 @@ Partial Class FormListePatient
         Me.pbxAtt = New System.Windows.Forms.PictureBox()
         Me.btnConsultation = New System.Windows.Forms.Button()
         Me.btnConsultationSel = New System.Windows.Forms.Button()
-        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.NOM = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSE1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSE2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.VILLE = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSE4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.REPONSEVRAI1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxAtt, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -65,6 +65,63 @@ Partial Class FormListePatient
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(969, 358)
         Me.DataGridView1.TabIndex = 86
+        '
+        'ID
+        '
+        Me.ID.HeaderText = "CODE"
+        Me.ID.Name = "ID"
+        Me.ID.ReadOnly = True
+        Me.ID.Width = 50
+        '
+        'NOM
+        '
+        Me.NOM.HeaderText = "NOM"
+        Me.NOM.Name = "NOM"
+        Me.NOM.ReadOnly = True
+        '
+        'REPONSE1
+        '
+        Me.REPONSE1.HeaderText = "PRENOM"
+        Me.REPONSE1.Name = "REPONSE1"
+        Me.REPONSE1.ReadOnly = True
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Profession"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        '
+        'REPONSE2
+        '
+        Me.REPONSE2.FillWeight = 144.0!
+        Me.REPONSE2.HeaderText = "DATE NAISSANCE"
+        Me.REPONSE2.Name = "REPONSE2"
+        Me.REPONSE2.ReadOnly = True
+        Me.REPONSE2.Width = 80
+        '
+        'VILLE
+        '
+        Me.VILLE.FillWeight = 144.0!
+        Me.VILLE.HeaderText = "VILLE"
+        Me.VILLE.Name = "VILLE"
+        Me.VILLE.ReadOnly = True
+        Me.VILLE.Width = 70
+        '
+        'REPONSE4
+        '
+        Me.REPONSE4.FillWeight = 144.0!
+        Me.REPONSE4.HeaderText = "TELEPHONE"
+        Me.REPONSE4.Name = "REPONSE4"
+        Me.REPONSE4.ReadOnly = True
+        '
+        'REPONSEVRAI1
+        '
+        Me.REPONSEVRAI1.FillWeight = 144.0!
+        Me.REPONSEVRAI1.HeaderText = "STATUT"
+        Me.REPONSEVRAI1.MinimumWidth = 6
+        Me.REPONSEVRAI1.Name = "REPONSEVRAI1"
+        Me.REPONSEVRAI1.ReadOnly = True
+        Me.REPONSEVRAI1.Width = 70
         '
         'Label1
         '
@@ -109,7 +166,7 @@ Partial Class FormListePatient
         Me.btnAjouterSel.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.depositphotos_123432976_stock_photo_yellow_and_orange_gradient_abstract
         Me.btnAjouterSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnAjouterSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAjouterSel.Location = New System.Drawing.Point(529, 414)
+        Me.btnAjouterSel.Location = New System.Drawing.Point(368, 415)
         Me.btnAjouterSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAjouterSel.Name = "btnAjouterSel"
         Me.btnAjouterSel.Size = New System.Drawing.Size(144, 39)
@@ -123,7 +180,7 @@ Partial Class FormListePatient
         Me.btnAjouter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnAjouter.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAjouter.ForeColor = System.Drawing.Color.White
-        Me.btnAjouter.Location = New System.Drawing.Point(529, 415)
+        Me.btnAjouter.Location = New System.Drawing.Point(374, 416)
         Me.btnAjouter.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAjouter.Name = "btnAjouter"
         Me.btnAjouter.Size = New System.Drawing.Size(144, 38)
@@ -189,12 +246,12 @@ Partial Class FormListePatient
         Me.btnConsultation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnConsultation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnConsultation.ForeColor = System.Drawing.Color.White
-        Me.btnConsultation.Location = New System.Drawing.Point(372, 415)
+        Me.btnConsultation.Location = New System.Drawing.Point(526, 406)
         Me.btnConsultation.Margin = New System.Windows.Forms.Padding(4)
         Me.btnConsultation.Name = "btnConsultation"
-        Me.btnConsultation.Size = New System.Drawing.Size(144, 38)
+        Me.btnConsultation.Size = New System.Drawing.Size(150, 51)
         Me.btnConsultation.TabIndex = 100
-        Me.btnConsultation.Text = "Consultation"
+        Me.btnConsultation.Text = "Consultation Ancien Patient"
         Me.btnConsultation.UseVisualStyleBackColor = True
         '
         'btnConsultationSel
@@ -202,70 +259,13 @@ Partial Class FormListePatient
         Me.btnConsultationSel.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.depositphotos_123432976_stock_photo_yellow_and_orange_gradient_abstract
         Me.btnConsultationSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnConsultationSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnConsultationSel.Location = New System.Drawing.Point(372, 414)
+        Me.btnConsultationSel.Location = New System.Drawing.Point(526, 407)
         Me.btnConsultationSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnConsultationSel.Name = "btnConsultationSel"
-        Me.btnConsultationSel.Size = New System.Drawing.Size(144, 39)
+        Me.btnConsultationSel.Size = New System.Drawing.Size(150, 52)
         Me.btnConsultationSel.TabIndex = 99
-        Me.btnConsultationSel.Text = "Consultation"
+        Me.btnConsultationSel.Text = "Consultation Ancien Patient"
         Me.btnConsultationSel.UseVisualStyleBackColor = True
-        '
-        'ID
-        '
-        Me.ID.HeaderText = "CODE"
-        Me.ID.Name = "ID"
-        Me.ID.ReadOnly = True
-        Me.ID.Width = 50
-        '
-        'NOM
-        '
-        Me.NOM.HeaderText = "NOM"
-        Me.NOM.Name = "NOM"
-        Me.NOM.ReadOnly = True
-        '
-        'REPONSE1
-        '
-        Me.REPONSE1.HeaderText = "PRENOM"
-        Me.REPONSE1.Name = "REPONSE1"
-        Me.REPONSE1.ReadOnly = True
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "Profession"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        '
-        'REPONSE2
-        '
-        Me.REPONSE2.FillWeight = 144.0!
-        Me.REPONSE2.HeaderText = "DATE NAISSANCE"
-        Me.REPONSE2.Name = "REPONSE2"
-        Me.REPONSE2.ReadOnly = True
-        Me.REPONSE2.Width = 80
-        '
-        'VILLE
-        '
-        Me.VILLE.FillWeight = 144.0!
-        Me.VILLE.HeaderText = "VILLE"
-        Me.VILLE.Name = "VILLE"
-        Me.VILLE.ReadOnly = True
-        Me.VILLE.Width = 70
-        '
-        'REPONSE4
-        '
-        Me.REPONSE4.FillWeight = 144.0!
-        Me.REPONSE4.HeaderText = "TELEPHONE"
-        Me.REPONSE4.Name = "REPONSE4"
-        Me.REPONSE4.ReadOnly = True
-        '
-        'REPONSEVRAI1
-        '
-        Me.REPONSEVRAI1.FillWeight = 144.0!
-        Me.REPONSEVRAI1.HeaderText = "STATUT"
-        Me.REPONSEVRAI1.MinimumWidth = 6
-        Me.REPONSEVRAI1.Name = "REPONSEVRAI1"
-        Me.REPONSEVRAI1.ReadOnly = True
-        Me.REPONSEVRAI1.Width = 70
         '
         'FormListePatient
         '
