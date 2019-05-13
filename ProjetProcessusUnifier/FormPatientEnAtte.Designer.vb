@@ -39,14 +39,15 @@ Partial Class FormPatientEnAtte
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.NOM})
-        Me.DataGridView1.Location = New System.Drawing.Point(15, 57)
+        Me.DataGridView1.Location = New System.Drawing.Point(20, 70)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(198, 291)
+        Me.DataGridView1.Size = New System.Drawing.Size(264, 358)
         Me.DataGridView1.TabIndex = 87
         '
         'ID
@@ -69,9 +70,10 @@ Partial Class FormPatientEnAtte
         Me.lblTitre.BackColor = System.Drawing.Color.Transparent
         Me.lblTitre.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitre.ForeColor = System.Drawing.Color.White
-        Me.lblTitre.Location = New System.Drawing.Point(11, 12)
+        Me.lblTitre.Location = New System.Drawing.Point(15, 15)
+        Me.lblTitre.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTitre.Name = "lblTitre"
-        Me.lblTitre.Size = New System.Drawing.Size(196, 42)
+        Me.lblTitre.Size = New System.Drawing.Size(261, 52)
         Me.lblTitre.TabIndex = 88
         Me.lblTitre.Text = "Les patients en attente de consultation"
         Me.lblTitre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -82,23 +84,25 @@ Partial Class FormPatientEnAtte
         Me.btnValider.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnValider.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnValider.ForeColor = System.Drawing.Color.White
-        Me.btnValider.Location = New System.Drawing.Point(15, 350)
+        Me.btnValider.Location = New System.Drawing.Point(20, 431)
+        Me.btnValider.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnValider.Name = "btnValider"
-        Me.btnValider.Size = New System.Drawing.Size(198, 31)
+        Me.btnValider.Size = New System.Drawing.Size(264, 38)
         Me.btnValider.TabIndex = 89
         Me.btnValider.Text = "Remplir fiche patient"
         Me.btnValider.UseVisualStyleBackColor = True
         '
         'FormPatientEnAtte
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.degrade_gris_bleu_1095_593
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(229, 384)
+        Me.ClientSize = New System.Drawing.Size(305, 473)
         Me.Controls.Add(Me.btnValider)
         Me.Controls.Add(Me.lblTitre)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FormPatientEnAtte"
         Me.Text = "FormPatientEnAtte"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

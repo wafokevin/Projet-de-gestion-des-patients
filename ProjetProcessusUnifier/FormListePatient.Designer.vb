@@ -162,7 +162,8 @@ Partial Class FormListePatient
         Me.btnAjouterSel.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.depositphotos_123432976_stock_photo_yellow_and_orange_gradient_abstract
         Me.btnAjouterSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnAjouterSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAjouterSel.Location = New System.Drawing.Point(397, 336)
+        Me.btnAjouterSel.Location = New System.Drawing.Point(529, 414)
+        Me.btnAjouterSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAjouterSel.Name = "btnAjouterSel"
         Me.btnAjouterSel.Size = New System.Drawing.Size(108, 32)
         Me.btnAjouterSel.TabIndex = 93
@@ -175,7 +176,8 @@ Partial Class FormListePatient
         Me.btnAjouter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnAjouter.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAjouter.ForeColor = System.Drawing.Color.White
-        Me.btnAjouter.Location = New System.Drawing.Point(397, 337)
+        Me.btnAjouter.Location = New System.Drawing.Point(529, 415)
+        Me.btnAjouter.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAjouter.Name = "btnAjouter"
         Me.btnAjouter.Size = New System.Drawing.Size(108, 31)
         Me.btnAjouter.TabIndex = 96
@@ -236,11 +238,12 @@ Partial Class FormListePatient
         Me.btnConsultation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnConsultation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnConsultation.ForeColor = System.Drawing.Color.White
-        Me.btnConsultation.Location = New System.Drawing.Point(279, 337)
+        Me.btnConsultation.Location = New System.Drawing.Point(372, 415)
+        Me.btnConsultation.Margin = New System.Windows.Forms.Padding(4)
         Me.btnConsultation.Name = "btnConsultation"
-        Me.btnConsultation.Size = New System.Drawing.Size(108, 31)
+        Me.btnConsultation.Size = New System.Drawing.Size(144, 38)
         Me.btnConsultation.TabIndex = 100
-        Me.btnConsultation.Text = "Consultation"
+        Me.btnConsultation.Text = "Consultation Ancien Patient"
         Me.btnConsultation.UseVisualStyleBackColor = True
         '
         'btnConsultationSel
@@ -248,11 +251,12 @@ Partial Class FormListePatient
         Me.btnConsultationSel.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.depositphotos_123432976_stock_photo_yellow_and_orange_gradient_abstract
         Me.btnConsultationSel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnConsultationSel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnConsultationSel.Location = New System.Drawing.Point(279, 336)
+        Me.btnConsultationSel.Location = New System.Drawing.Point(372, 414)
+        Me.btnConsultationSel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnConsultationSel.Name = "btnConsultationSel"
-        Me.btnConsultationSel.Size = New System.Drawing.Size(108, 32)
+        Me.btnConsultationSel.Size = New System.Drawing.Size(144, 39)
         Me.btnConsultationSel.TabIndex = 99
-        Me.btnConsultationSel.Text = "Consultation"
+        Me.btnConsultationSel.Text = "Consultation Ancien Patient"
         Me.btnConsultationSel.UseVisualStyleBackColor = True
         '
         'FormListePatient

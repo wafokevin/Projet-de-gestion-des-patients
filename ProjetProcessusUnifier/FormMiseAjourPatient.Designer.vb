@@ -44,11 +44,11 @@ Partial Class FormMiseAjourPatient
         Me.btnValider.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnValider.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnValider.ForeColor = System.Drawing.Color.White
-        Me.btnValider.Location = New System.Drawing.Point(51, 337)
+        Me.btnValider.Location = New System.Drawing.Point(17, 415)
+        Me.btnValider.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnValider.Name = "btnValider"
-        Me.btnValider.Size = New System.Drawing.Size(108, 31)
+        Me.btnValider.Size = New System.Drawing.Size(248, 38)
         Me.btnValider.TabIndex = 58
-        Me.btnValider.Text = "Valider"
         Me.btnValider.UseVisualStyleBackColor = True
         '
         'Label6
@@ -56,18 +56,20 @@ Partial Class FormMiseAjourPatient
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(8, 250)
+        Me.Label6.Location = New System.Drawing.Point(11, 308)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(189, 18)
+        Me.Label6.Size = New System.Drawing.Size(252, 22)
         Me.Label6.TabIndex = 57
         Me.Label6.Text = "Telephone :"
         '
         'txtTelPatient
         '
         Me.txtTelPatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtTelPatient.Location = New System.Drawing.Point(9, 271)
+        Me.txtTelPatient.Location = New System.Drawing.Point(12, 334)
+        Me.txtTelPatient.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTelPatient.Name = "txtTelPatient"
-        Me.txtTelPatient.Size = New System.Drawing.Size(195, 20)
+        Me.txtTelPatient.Size = New System.Drawing.Size(259, 22)
         Me.txtTelPatient.TabIndex = 56
         '
         'Label5
@@ -75,26 +77,29 @@ Partial Class FormMiseAjourPatient
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(10, 206)
+        Me.Label5.Location = New System.Drawing.Point(13, 254)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(189, 18)
+        Me.Label5.Size = New System.Drawing.Size(252, 22)
         Me.Label5.TabIndex = 55
         Me.Label5.Text = "Ville :"
         '
         'txtVillePatient
         '
         Me.txtVillePatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtVillePatient.Location = New System.Drawing.Point(9, 227)
+        Me.txtVillePatient.Location = New System.Drawing.Point(12, 279)
+        Me.txtVillePatient.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVillePatient.Name = "txtVillePatient"
-        Me.txtVillePatient.Size = New System.Drawing.Size(195, 20)
+        Me.txtVillePatient.Size = New System.Drawing.Size(259, 22)
         Me.txtVillePatient.TabIndex = 54
         '
         'dtDatePatient
         '
         Me.dtDatePatient.CalendarMonthBackground = System.Drawing.SystemColors.Menu
-        Me.dtDatePatient.Location = New System.Drawing.Point(9, 180)
+        Me.dtDatePatient.Location = New System.Drawing.Point(12, 222)
+        Me.dtDatePatient.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dtDatePatient.Name = "dtDatePatient"
-        Me.dtDatePatient.Size = New System.Drawing.Size(196, 20)
+        Me.dtDatePatient.Size = New System.Drawing.Size(260, 22)
         Me.dtDatePatient.TabIndex = 53
         '
         'Label4
@@ -102,9 +107,10 @@ Partial Class FormMiseAjourPatient
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(10, 159)
+        Me.Label4.Location = New System.Drawing.Point(13, 196)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(189, 18)
+        Me.Label4.Size = New System.Drawing.Size(252, 22)
         Me.Label4.TabIndex = 52
         Me.Label4.Text = "Date naissance :"
         '
@@ -113,18 +119,20 @@ Partial Class FormMiseAjourPatient
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(9, 112)
+        Me.Label3.Location = New System.Drawing.Point(12, 138)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(189, 18)
+        Me.Label3.Size = New System.Drawing.Size(252, 22)
         Me.Label3.TabIndex = 51
         Me.Label3.Text = "Prenom :"
         '
         'txtPrenomPatient
         '
         Me.txtPrenomPatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtPrenomPatient.Location = New System.Drawing.Point(9, 133)
+        Me.txtPrenomPatient.Location = New System.Drawing.Point(12, 164)
+        Me.txtPrenomPatient.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPrenomPatient.Name = "txtPrenomPatient"
-        Me.txtPrenomPatient.Size = New System.Drawing.Size(195, 20)
+        Me.txtPrenomPatient.Size = New System.Drawing.Size(259, 22)
         Me.txtPrenomPatient.TabIndex = 50
         '
         'Label2
@@ -132,9 +140,10 @@ Partial Class FormMiseAjourPatient
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(9, 68)
+        Me.Label2.Location = New System.Drawing.Point(12, 84)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 18)
+        Me.Label2.Size = New System.Drawing.Size(81, 22)
         Me.Label2.TabIndex = 49
         Me.Label2.Text = "Nom :"
         '
@@ -143,9 +152,10 @@ Partial Class FormMiseAjourPatient
         Me.lblTitre.BackColor = System.Drawing.Color.Transparent
         Me.lblTitre.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitre.ForeColor = System.Drawing.Color.White
-        Me.lblTitre.Location = New System.Drawing.Point(3, 1)
+        Me.lblTitre.Location = New System.Drawing.Point(4, 1)
+        Me.lblTitre.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTitre.Name = "lblTitre"
-        Me.lblTitre.Size = New System.Drawing.Size(196, 68)
+        Me.lblTitre.Size = New System.Drawing.Size(261, 84)
         Me.lblTitre.TabIndex = 48
         Me.lblTitre.Text = "Enregistrement patients"
         Me.lblTitre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -153,9 +163,10 @@ Partial Class FormMiseAjourPatient
         'txtNomPatient
         '
         Me.txtNomPatient.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtNomPatient.Location = New System.Drawing.Point(9, 89)
+        Me.txtNomPatient.Location = New System.Drawing.Point(12, 110)
+        Me.txtNomPatient.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtNomPatient.Name = "txtNomPatient"
-        Me.txtNomPatient.Size = New System.Drawing.Size(196, 20)
+        Me.txtNomPatient.Size = New System.Drawing.Size(260, 22)
         Me.txtNomPatient.TabIndex = 47
         '
         'Label1
@@ -163,27 +174,29 @@ Partial Class FormMiseAjourPatient
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(9, 292)
+        Me.Label1.Location = New System.Drawing.Point(12, 359)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(189, 18)
+        Me.Label1.Size = New System.Drawing.Size(252, 22)
         Me.Label1.TabIndex = 60
         Me.Label1.Text = "Prefession :"
         '
         'txtProfession
         '
         Me.txtProfession.BackColor = System.Drawing.SystemColors.Menu
-        Me.txtProfession.Location = New System.Drawing.Point(10, 313)
+        Me.txtProfession.Location = New System.Drawing.Point(13, 385)
+        Me.txtProfession.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtProfession.Name = "txtProfession"
-        Me.txtProfession.Size = New System.Drawing.Size(195, 20)
+        Me.txtProfession.Size = New System.Drawing.Size(259, 22)
         Me.txtProfession.TabIndex = 59
         '
         'FormMiseAjourPatient
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ProjetProcessusUnifier.My.Resources.Resources.degrade_gris_bleu_1095_593
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(205, 371)
+        Me.ClientSize = New System.Drawing.Size(273, 457)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtProfession)
         Me.Controls.Add(Me.btnValider)
@@ -198,6 +211,7 @@ Partial Class FormMiseAjourPatient
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblTitre)
         Me.Controls.Add(Me.txtNomPatient)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FormMiseAjourPatient"
         Me.Text = "FormAjouterPatient"
         Me.ResumeLayout(False)
